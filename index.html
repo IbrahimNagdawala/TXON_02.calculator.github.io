@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css" integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Calculator</title>
+</head>
+<body>
+    <!--To view the history, default won't show this-->
+    <div id="HistoryView">
+        <div class="container">
+            <div class="historyIcon" id="historyIcon">
+                <div class="title">
+                    History
+                </div>
+                <button id="icon1"><img
+                        src="https://flaticons.net/icon.php?slug_category=application&slug_icon=tab-history" width="25"
+                        height="25"></button>
+            </div>
+            <ul id="item-list">
+
+            </ul>
+            <p class="credits" >Made with <i class="fa fa-heart" style="color: red; padding: 0px 6px 0 6px;;"></i> By <a href="https://www.ibrahimnagdawala.xyz" style="text-decoration: none; font-weight: 600; color: #eadfd5; padding: 0px 6px 0 6px;"> Ibrahim Nagdawala </a> </p>
+        </div>
+    </div>
+
+    <div id="root">
+        <div class="history">
+            <button id="icon2"><img src="https://flaticons.net/icon.php?slug_category=application&slug_icon=tab-history"
+                    width="25" height="25"></button>
+        </div>
+        <div class="nothing">
+
+        </div>
+        <div class="formula" id="ibbu">
+            <p id="previous"></p>
+        </div>
+
+        <div class="display">
+            <p id="number">0</p>
+        </div>
+
+        <div class="btnsContainer">
+
+            <table class="btns">
+                <tr>
+                    <td><button id="AC" class="cal-btns gray">AC</button></td>
+                    <td><button id="CE" class="cal-btns gray">C</button></td>
+                    <td><button id="%" class="cal-btns gray">%</button></td>
+                    <td><button id="/" class="cal-btns org">÷</button></td>
+                </tr>
+                <tr>
+                    <td><button id="7" class="cal-btns dgray">7</button></td>
+                    <td><button id="8" class="cal-btns dgray">8</button></td>
+                    <td><button id="9" class="cal-btns dgray">9</button></td>
+                    <td><button id="x" class="cal-btns org">×</button></td>
+                </tr>
+                <tr>
+                    <td><button id="4" class="cal-btns dgray">4</button></td>
+                    <td><button id="5" class="cal-btns dgray">5</button></td>
+                    <td><button id="6" class="cal-btns dgray">6</button></td>
+                    <td><button id="-" class="cal-btns org">-</button></td>
+                </tr>
+                <tr>
+                    <td><button id="1" class="cal-btns dgray">1</button></td>
+                    <td><button id="2" class="cal-btns dgray">2</button></td>
+                    <td><button id="3" class="cal-btns dgray">3</button></td>
+                    <td><button id="+" class="cal-btns org">+</button></td>
+                </tr>
+                <tr>
+                    <td colspan="2"><button id="0" class="cal-btns special dgray">0</button>
+                    </td>
+                    <td><button id="." class="cal-btns dgray">.</button></td>
+                    <td><button id="=" class="cal-btns org">=</button></td>
+                </tr>
+            </table>
+            <p class="credits">Made with <i class="fa fa-heart" style="color: red; padding: 0px 6px 0 6px;;"></i> By <a href="https://www.ibrahimnagdawala.xyz" style="text-decoration: none; font-weight: 600; color: #eadfd5; padding: 0px 6px 0 6px;"> Ibrahim Nagdawala </a> </p>
+
+           
+        </div>
+
+    </div>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
+    <script type="text/javascript" src="index.js"></script>
+</body>
+</html>
