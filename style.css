@@ -221,19 +221,3 @@ html {
   width: 90%;
   padding: 10px;
 }
-
-
-@media (max-width:360px)
-{
-
-
-#root {
-  min-height: 100vh;
-  width: 100vw;
-  
-}
-.container {
-  min-height: 100vh;
-  width: 100vw;
-}
-}
